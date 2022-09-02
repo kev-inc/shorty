@@ -77,7 +77,7 @@ function App() {
 
           {result.created && !result.error && (
             <div class="p-4 mb-4 text-sm text-blue-700 bg-blue-100 rounded-lg">
-              <span class="font-medium">Success!</span> Your shorty link <a className='underline' href={result.link}>{window.location.hostname + "/" + result.link}</a> has been created!
+              <span class="font-medium">Success!</span> Your shorty link <a className='underline' href={result.link}>{window.location.hostname + result.link}</a> has been created!
             </div>
           )}
 
