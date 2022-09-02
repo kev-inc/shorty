@@ -1,0 +1,6 @@
+name = "shorty-api"
+main = "src/index.ts"
+compatibility_date = "2022-09-02"
+kv_namespaces = [
+    { binding = "db", preview_id = "612ea7c0c9b94d9a9e30fa9117db3ff8", id = "612ea7c0c9b94d9a9e30fa9117db3ff8" }
+]
