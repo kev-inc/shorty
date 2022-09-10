@@ -60,7 +60,7 @@ function App() {
 
   return (
     <div>
-      <div className="text-xl font-semibold p-4 mb-6 border">
+      <div className="text-xl font-semibold p-4 mb-6 border text-blue-500 bg-slate-50 text-center">
         Shorty Link Shortener
       </div>
 
