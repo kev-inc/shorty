@@ -60,12 +60,12 @@ function App() {
 
   return (
     <div>
-      <div className="text-xl font-semibold p-4 mb-6 border">
+      <div className="text-xl font-semibold p-4 mb-6 border text-blue-500 bg-slate-50 text-center">
         Shorty Link Shortener
       </div>
 
       {isRedirecting ? spinner : (
-        <form className='p-4' onSubmit={createNewLink}>
+        <form className='container mx-auto p-4' onSubmit={createNewLink}>
           <div className="mb-6">
             <label className="block mb-2 text-sm font-medium text-gray-900">Link</label>
             <input type="url" id="link" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="https://www.facebook.com/" required />
