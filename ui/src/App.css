@@ -1,0 +1,113 @@
+input {
+    border-width: 0;
+    width: 100%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 8px;
+}
+
+.alias-input-field {
+    display: flex;
+    align-items: baseline;
+    flex-grow: 1;
+}
+.helper {
+    opacity: 75%;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.alias-field {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+    display: flex;
+    height: 32px;
+    align-items: center;
+    background-color: white;
+    border-radius: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.section {
+    margin-bottom: 36px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blue {
+    color: #1B74E4;
+}
+
+button {
+    background-color: #1B74E4;
+    color: white;
+    border: 0;
+    border-radius: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    border: 2px solid #1B74E4;
+}
+
+.mr-12px {
+    margin-right: 12px;
+}
+.mb-12px {
+    margin-bottom: 12px;
+}
+
+button:active {
+    background-color: #155cb6 ;    
+}
+
+.title {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.subtitle {
+    opacity: 75%;
+    font-weight: 500;
+}
+
+.slogan {
+    opacity: 75%;
+}
+
+.header {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+button.toggle-off {
+    background-color: white;
+    color: #1B74E4
+}
+
+button.transparent {
+    background-color: white;
+    color: #1B74E4;
+    border: 0;
+}
+
+button.transparent:hover {
+    background-color: #e8f1fc;
+}
+
+.success-toast {
+    margin-left: 12px;
+    font-weight: 500;
+}
